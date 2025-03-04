@@ -16,8 +16,6 @@ let dvd = {
     canvas = document.getElementById("tv-screen");
     ctx = canvas.getContext("2d");
     dvd.img.src = 'reef-scape.svg';
-
-    //Draw the "tv screen"
     canvas.width  = window.innerWidth;
     canvas.height = window.innerHeight;
 
