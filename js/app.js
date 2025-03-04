@@ -1,4 +1,4 @@
-let speed = 24;
+let speed = 19;
 let scale = 1;
 let canvas;
 let ctx;
