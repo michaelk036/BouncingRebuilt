@@ -1,5 +1,7 @@
-let speed = 19;
-let scale = 1;
+let speed = 18;
+let scale = 0.15;
+//let speed = 19; Reefscape
+//let scale = 1; Reefscape
 let canvas;
 let ctx;
 let logoColor;
@@ -15,7 +17,8 @@ let dvd = {
 (function main(){
     canvas = document.getElementById("tv-screen");
     ctx = canvas.getContext("2d");
-    dvd.img.src = 'reef-scape.svg';
+    //dvd.img.src = 'reef-scape.svg'; Reefscape
+    dvd.img.src = 'rebuilt.png';
     canvas.width  = window.innerWidth;
     canvas.height = window.innerHeight;
 
